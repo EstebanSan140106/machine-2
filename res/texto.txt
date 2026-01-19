@@ -1,0 +1,3 @@
+Hoy ha sido un día normal. He ido a la tienda, he comprado pan y he vuelto a casa.def buscar_en_fichero(ruta, cadena):
+    with open(ruta, 'r') as archivo:
+        return cadena in archivo.read()
